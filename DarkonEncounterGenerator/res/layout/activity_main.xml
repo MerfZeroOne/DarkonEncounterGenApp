@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent"
+     android:background="@drawable/wallpaper"
+    android:scaleType = "centerCrop">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp" 
+    >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="148dp"
+        android:layout_height="131dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/darkon_fav2" />
+    
+        <TextView
+            android:id="@+id/textViewRangerLevel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="@string/txtRangerLevelLabel"
+            android:textSize="20sp"
+             android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spinnerRangerLevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewRangerLevel"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:entries="@array/arrayRangerLevels"
+        android:prompt="@string/txtRangerLevelPrompt" />
+
+    <TextView
+        android:id="@+id/textViewFertility"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinnerRangerLevel"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:text="@string/txtHexTypeLabel"
+        android:textSize="20sp" 
+        android:textStyle="bold"/>
+
+    <Spinner
+        android:id="@+id/spinnerHexType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewFertility"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:entries="@array/arrayHexTypes"
+        android:prompt="@string/txtHexTypePrompt" />
+   
+         <Button
+             android:id="@+id/buttonGenerate"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentBottom="true"
+             android:layout_centerHorizontal="true"
+             android:layout_gravity="center_horizontal"
+             android:layout_marginBottom="15dp"
+             android:layout_marginTop="40dp"
+             android:text="@string/txtGenerateButtonLabel" />
+
+    <Button
+        android:id="@+id/buttonViewCharts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonGenerate"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/buttonGenerate"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:text="@string/txtButtonViewCharts" />
+
+ </LinearLayout>
+</ScrollView>

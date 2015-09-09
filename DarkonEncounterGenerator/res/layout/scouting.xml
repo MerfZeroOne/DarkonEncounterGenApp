@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent"
+    android:background="@drawable/wallpaper"
+    android:scaleType = "centerCrop"
+     >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    >
+
+    <TextView
+        android:id="@+id/textViewScoutHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/txtScoutHeader"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewScoutPrimaryHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Primary Header"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#a52a2a"
+        android:textSize="20sp" 
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textViewScoutPrimaryResults"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="primary results" 
+        android:textSize="15sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/buttonScoutChoice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/txtButtonViewCharts" />
+
+    <TextView
+        android:id="@+id/textViewScoutSecondaryHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewLSPrimaryResults"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:text="Secondary Header"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#a52a2a"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewScoutSecondaryResults"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="secondary results" 
+        android:textSize="15sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textViewScoutMinesHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Mines Header"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#a52a2a"
+        android:textSize="20sp" 
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textViewScoutMinesRuins"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Mines and ruins"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewScoutInfo1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="extra info 1" 
+        android:textSize="15sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textViewScoutInfo2a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="extra info 2" 
+        android:textSize="15sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textViewScoutFertilityHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Fertility Header"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#a52a2a"
+        android:textSize="20sp" 
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textViewScoutHexResults"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textViewLSMinesHeader"
+        android:layout_alignRight="@+id/textViewLSMinesRuins"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:text="fertility results" 
+        android:textSize="15sp"
+        android:textStyle="bold"/>
+
+</LinearLayout>
+</ScrollView>

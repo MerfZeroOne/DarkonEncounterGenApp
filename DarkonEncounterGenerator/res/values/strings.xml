@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Encounter Generator</string>
+    <string name="txtRangerLevelLabel">Level of Ranger</string>
+    <string name="txtHexTypeLabel">Type of Hex</string>
+    <string-array name="arrayRangerLevels">
+        <item >Level 3 (Land Search)</item>
+        <item >Level 15 (Scouting)</item>
+        <item >Level 25 (Exploration)</item>
+    </string-array>
+    <string-array name="arrayHexTypes">
+        <item >Mountains</item>
+        <item >Forest</item>
+        <item >Coastal</item>
+        <item >Plains</item>
+        <item >Desert</item>
+    </string-array>
+    <string name="txtRangerLevelPrompt">Tap for Ranger Level Options</string>
+    <string name="txtHexTypePrompt">Tap for Hex Type Options</string>
+    <string name="txtGenerateButtonLabel">Generate Encounter</string>
+    <string name="txtLandSearchHeader">Land Search Results</string>
+    <string name="txtScoutHeader">Scouting Results</string>
+    <string name="txtExplorationHeader">Exploration Results</string>
+    <string name="txtButtonViewCharts">Encounter Charts</string>
+    <string name="txtChartsHeader">Random Roll Charts</string>
+    <string name="txtChartsPrompt">Select Chart to View</string>
+    <string-array name="arrayCharts">
+        <item >Primary Encounter Chart</item>
+        <item >Human Encounter</item>
+        <item >Humanoid Encounter</item>
+        <item >Undead Encounter</item>
+        <item >Giant Encounter</item>
+        <item >Dragon Encounter</item>
+        <item >Fortification Encounter</item>
+        <item >Land Fertility Mountains</item>
+        <item >Land Fertility Forest</item>
+        <item >Land Fertility Coastal</item>
+        <item >Land Fertility Plains</item>
+        <item >Land Fertility Desert</item>
+        <item >Mines and Ruins</item>
+    </string-array>
+    <string name="txtButtonLSChoice">Encounter Tables</string>
+
+</resources>
